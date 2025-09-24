@@ -15,7 +15,7 @@ services:
   wordpress:
     image: saigowtham2605/addressbook-sep:latest
     ports:
-      - 8080:8800
+      - 8081:8800
     depends_on:
        - db
     restart: always
